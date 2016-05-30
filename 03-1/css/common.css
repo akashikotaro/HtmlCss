@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/********** 全ページ共通の設定 **********/
+
+
+
+/****** bodyの設定 ******/
+body{
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+/****** headerの設定　******/
+header{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/****** 見出しの設定　******/
+h1{
+    height: 60px;
+    color: #22454f;
+    background-color: #28a6cc;
+    padding-left: 10px;
+    margin: 0;
+    /* 高さを中央にする */
+    line-height: 60px;
+}
