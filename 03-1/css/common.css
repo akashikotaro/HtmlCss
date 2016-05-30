@@ -1,23 +1,25 @@
-@charset "UTF-8";
 /********** 全ページ共通の設定 **********/
 
+@charset "UTF-8";
 
 
 /****** bodyの設定 ******/
-body{
+body {
     margin: 0;
     background-color: #f7f7f7;
 }
 
+
 /****** headerの設定　******/
-header{
+header {
     width: 1200px;
     height: 100px;
     margin: 0 auto;
 }
 
+
 /****** 見出しの設定　******/
-h1{
+header h1 {
     height: 60px;
     color: #22454f;
     background-color: #28a6cc;
@@ -25,4 +27,37 @@ h1{
     margin: 0;
     /* 高さを中央にする */
     line-height: 60px;
+}
+
+
+/****** グローバルナビ ******/
+header ul {
+    width: 1200px;
+    height: 40px;
+    /* 中央に要素を配置する */
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+/****** ナビ ******/
+header ul li {
+    float: left;
+    width: 300px;
+    height: 40px;
+    color: #62b4cc;
+    background-color: #394548;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+/****** footer ******/
+footer {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #0b303b;
+    line-height: 50px;
 }
