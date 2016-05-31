@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/****************** コンテンツの設定 ******************/
+#wrapper_message {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+#wrapper_message h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+
+#main_contents {
+    margin-left: 170px;
+}
+
+
+/****** 画像 ******/
+#wrapper_message #president-image img{
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding: 10px;
+    margin: 10px 30px 30px 40px;
+}
+
+
+#contents {
+    width: 700px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+    padding: 0 50px;
+    border-left: 3px double #000;
+    border-right: 3px double #000;
+}
+
+
+.clear {
+    clear: both;
+}

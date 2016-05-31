@@ -1,34 +1,5 @@
 @charset "UTF-8";
 
-/****************** TOPへ戻るボタン ******************/
-#page-top {
-    width: 50px;
-    height: 50px;
-    background-color: #030304;
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-}
-
-
-/****** ボタンの文字の設定 ******/
-#page-top p {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    margin: 0px;
-    color: #92e5fe;
-}
-
-
-/****** リンク部分の設定 ******/
-#page-top a {
-    text-decoration: none;
-}
-
-
-
 /****************** コンテンツの設定 ******************/
 #wrapper {
     width: 1200px;
@@ -62,8 +33,8 @@
     line-height: 50px;
     margin: 0;
     padding: 0 0 0 10px;
-    color: #92e5fe;
-    background-color: #28a6cc;
+    color: #fff;
+    background-color: #993300;
 }
 
 
@@ -71,7 +42,7 @@
 #wrapper #info div {
     width: 750px;
     padding: 24px;
-    border: 1px solid #408ca3;
+    border: 1px solid #394548;
 }
 
 
@@ -88,7 +59,7 @@
     float: left;
     width: 150px;
     margin: 20px 0 30px 75px;
-    border: 1px solid #408ca3;
+    border: 1px solid #394548;
 }
 
 
@@ -112,6 +83,6 @@
     float: left;
     width: 200px;
     height:  200px;
-    background-color: #28a6cc;
+    background-color: #D2B48C;
     margin: 40px 80px 20px 0;
 }

@@ -15,7 +15,7 @@ header {
     width: 100%;
     height: 100px;
     margin: 0 auto;
-    background-color: #28a6cc;
+    background-color: #993300;
 }
 
 
@@ -29,7 +29,7 @@ header div {
 /****** 見出しの設定　******/
 header div h1 {
     height: 60px;
-    color: #22454f;
+    color: #fff;
     padding-left: 10px;
     margin: 0;
     /* 高さを中央にする */
@@ -73,11 +73,44 @@ header ul li:last-child {
 
 /****** グローバルリンクの文字色 ******/
 header ul li a {text-decoration: none;}
-header ul li a:link {color:#62b4cc;}
-header ul li a:visited {color:#62b4cc;}
-header ul li a:hover {color:#62b4cc;}
-header ul li a:active {color:#62b4cc;}
+header ul li a:link {color:#fff;}
+header ul li a:visited {color:#fff;}
+header ul li a:hover {color:#fff;}
+header ul li a:active {color:#fff;}
 
+
+
+/****************** TOPへ戻るボタン ******************/
+#page-top {
+    width: 70px;
+    height: 50px;
+    background-color: #993300;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+
+/****** ボタンの文字の設定 ******/
+#page-top p {
+    width: 70px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0;
+    color: #92e5fe;
+}
+
+
+/****** リンク部分の設定 ******/
+#page-top a {
+    text-decoration: none;
+}
+
+#page-top a:link {color:#fff;}
+#page-top a:visited {color:#fff;}
+#page-top a:hover {color:#fff;}
+#page-top a:active {color:#fff;}
 
 
 /****************** footer ******************/
@@ -88,4 +121,5 @@ footer {
     text-align: center;
     background-color: #0b303b;
     line-height: 50px;
+    color: #fff;
 }
