@@ -1,23 +1,6 @@
 @charset "UTF-8";
 
-#page-top {
-    width: 50px;
-    height: 50px;
-    background-color: #030304;
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-}
-
-#page-top p {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    margin: 0px;
-    color: #92e5fe;
-}
-
+/****************** コンテンツの設定 ******************/
 #wrapper {
     width: 1200px;
     height: auto;
@@ -26,50 +9,90 @@
     overflow: hidden;
 }
 
-#wrapper #main-image {
+
+/****** 画像 ******/
+#wrapper #main-image img{
     width: 1200px;
     height: 400px;
 }
 
+
+/****** ｢お知らせ」の範囲 ******/
 #wrapper #info {
-    float: left;
+    float: right;
     width: 800px;
     height: 300px;
-    margin: 20px 0 30px 30px;
+    margin: 20px 83px 80px 0;
 }
 
+
+/****** 見出し｢お知らせ｣ ******/
 #wrapper #info h2 {
     width: 790px;
     height: 50px;
     line-height: 50px;
     margin: 0;
     padding: 0 0 0 10px;
-    color: #0b303b;
-    background-color: #28a6cc;
+    color: #fff;
+    background-color: #993300;
 }
 
+
+/****** 「お知らせ」の内容の範囲 ******/
 #wrapper #info div {
     width: 750px;
-    padding: 24px;
-    border: 1px solid #408ca3;
+    padding: 0 24px 24px 24px;
+    border: 1px solid #394548;
 }
 
+#wrapper #info #new {
+    font-size: 10px;
+    color: red;
+    margin-left: -20px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+
+
+/****** 「お知らせ」の内容 ******/
 #wrapper #info div p {
     font-size: 23px;
     padding: 0 0 0 20px;
     text-decoration: underline;
 }
 
+
+/****** カテゴリー(ul)の設定 ******/
 #wrapper #category {
-    float: right;
+    float: left;
     width: 150px;
-    margin: 20px 100px 30px 0;
-    border: 1px solid #408ca3;
+    margin: 20px 0 30px 75px;
+    border: 1px solid #394548;
 }
 
+
+/****** カテゴリーの内容 ******/
 #wrapper #category li{
     width: 150px;
     height: 50px;
     line-height: 50px;
     color: #394548;
+}
+
+
+/******* 四角の範囲 *******/
+#wrapper #square_contents {
+    margin-left: 75px;
+}
+
+
+/****** 四角 ******/
+#wrapper .square {
+    float: left;
+    width: 200px;
+    height:  200px;
+    background-color: #D2B48C;
+    margin: 40px 80px 20px 0;
+    background-image: url("./../img/s_president_img.jpg");
 }

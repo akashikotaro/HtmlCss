@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/****************** コンテンツの設定 ******************/
+#wrapper_intro {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+#wrapper_intro table {
+    margin: 50px 200px;
+    width: 800px;
+    font-size: 23px;
+}
+
+#wrapper_intro table td{
+    padding: 20px;
+}
+
+#wrapper_intro table caption {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#wrapper_intro .menu {
+    width: 150px;
+    text-align: center;
+}

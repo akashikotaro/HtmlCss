@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/****************** コンテンツの設定 ******************/
+#wrapper_product {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+#wrapper_product h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+#wrapper_product #product_contents {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-size: 25px;
+}
+
+#wrapper_product #product_contents ul li img {
+    width: 100px;
+    height: 70px;
+}
+
+#wrapper_product #product_contents ul li a {
+    margin-left: 100px;
+}
+
+#wrapper_product #product_contents ul {
+    list-style: none;
+}
+
+#wrapper_product #product_contents ul li {
+    margin-bottom: 50px;
+}
