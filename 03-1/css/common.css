@@ -36,6 +36,12 @@ header div h1 {
     line-height: 60px;
 }
 
+header div h1 a {text-decoration: none;}
+header div h1 a:link {color:#fff;}
+header div h1 a:visited {color:#fff;}
+header div h1 a:hover {color:#fff;}
+header div h1 a:active {color:#fff;}
+
 
 /****** ナビの範囲 ******/
 header nav {
@@ -72,11 +78,11 @@ header ul li:last-child {
 
 
 /****** グローバルリンクの文字色 ******/
-header ul li a {text-decoration: none;}
+header ul li a {text-decoration: none;display: block;}
 header ul li a:link {color:#fff;}
 header ul li a:visited {color:#fff;}
-header ul li a:hover {color:#fff;}
-header ul li a:active {color:#fff;}
+header ul li a:hover {color:#000;background-color: #fff;}
+header ul li a:active {color:#000;background-color: #fff;}
 
 
 
