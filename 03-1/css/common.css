@@ -1,28 +1,35 @@
-/********** 全ページ共通の設定 **********/
+/****************** 全ページ共通の設定 ******************/
 
 @charset "UTF-8";
 
 
-/****** bodyの設定 ******/
+/****************** bodyの設定 ******************/
 body {
     margin: 0;
     background-color: #f7f7f7;
 }
 
 
-/****** headerの設定　******/
+/****************** headerの設定　******************/
 header {
-    width: 1200px;
+    width: 100%;
     height: 100px;
     margin: 0 auto;
+    background-color: #28a6cc;
+}
+
+
+/****** headerのh1の範囲 ******/
+header div {
+    width: 1200px;
+    margin:  0 auto;
 }
 
 
 /****** 見出しの設定　******/
-header h1 {
+header div h1 {
     height: 60px;
     color: #22454f;
-    background-color: #28a6cc;
     padding-left: 10px;
     margin: 0;
     /* 高さを中央にする */
@@ -30,9 +37,16 @@ header h1 {
 }
 
 
+/****** ナビの範囲 ******/
+header nav {
+    width: 100%;
+    background-color: #394548;
+}
+
+
 /****** グローバルナビ ******/
 header ul {
-    width: 1200px;
+    width: 1500px;
     height: 40px;
     /* 中央に要素を配置する */
     margin: 0 auto;
@@ -43,16 +57,30 @@ header ul {
 /****** ナビ ******/
 header ul li {
     float: left;
-    width: 300px;
+    width: 295px;
     height: 40px;
     color: #62b4cc;
-    background-color: #394548;
     text-align: center;
     line-height: 40px;
+    list-style: none;
+    border-left: 1px solid #f7f7f7;
+}
+
+header ul li:last-child {
+    border-right: 1px solid #f7f7f7;
 }
 
 
-/****** footer ******/
+/****** グローバルリンクの文字色 ******/
+header ul li a {text-decoration: none;}
+header ul li a:link {color:#62b4cc;}
+header ul li a:visited {color:#62b4cc;}
+header ul li a:hover {color:#62b4cc;}
+header ul li a:active {color:#62b4cc;}
+
+
+
+/****************** footer ******************/
 footer {
     width: 1200px;
     height: 50px;
